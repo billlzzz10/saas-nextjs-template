@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@chakra-ui/theme-tools':
-    specifier: ^2.2.5
-    version: 2.2.5(@chakra-ui/styled-system@2.12.0)(react@18.3.1)
+    specifier: ^2.2.9
+    version: 2.2.9(@chakra-ui/styled-system@2.12.0)(react@18.3.1)
   '@fontsource-variable/inter':
     specifier: ^5.2.8
     version: 5.2.8
@@ -1650,6 +1650,10 @@ packages:
     resolution: {integrity: sha512-fFIYN7L276gw0Q7/ikMMlZxP7mvnjRaWJ7f3Jsf9VtDOi6eAYIBRrhQe6+SZ0PGmoOkRaBc7gSE5oeIbgFFyrw==}
     dev: false
 
+  /@chakra-ui/anatomy@2.3.6:
+    resolution: {integrity: sha512-TjmjyQouIZzha/l8JxdBZN1pKZTj7sLpJ0YkFnQFyqHcbfWggW9jKWzY1E0VBnhtFz/xF3KC6UAVuZVSJx+y0g==}
+    dev: false
+
   /@chakra-ui/react-utils@2.0.12(react@18.3.1):
     resolution: {integrity: sha512-GbSfVb283+YA3kA8w8xWmzbjNWk14uhNpntnipHCftBibl0lxtQ9YqMFQLwuFOO0U2gYVocszqqDWX+XNKq9hw==}
     peerDependencies:
@@ -1696,27 +1700,27 @@ packages:
       - react
     dev: false
 
-  /@chakra-ui/theme-tools@2.2.5(@chakra-ui/styled-system@2.11.1)(react@18.3.1):
-    resolution: {integrity: sha512-tUIv04Pzm2W8v5Iugei15qREIFX2mslI3fEouIVih8vHzwY821neCfspxOsAhvYSLNX+1kzk6ArBo9WzUpqn+Q==}
+  /@chakra-ui/theme-tools@2.2.9(@chakra-ui/styled-system@2.11.1)(react@18.3.1):
+    resolution: {integrity: sha512-PcbYL19lrVvEc7Oydy//jsy/MO/rZz1DvLyO6AoI+bI/+Kwz9WfOKsspbulEhRg5COayE0R/IZPsskXZ7Mp4bA==}
     peerDependencies:
       '@chakra-ui/styled-system': '>=2.0.0'
     dependencies:
-      '@chakra-ui/anatomy': 2.3.4
+      '@chakra-ui/anatomy': 2.3.6
       '@chakra-ui/styled-system': 2.11.1(react@18.3.1)
-      '@chakra-ui/utils': 2.2.1(react@18.3.1)
+      '@chakra-ui/utils': 2.2.5(react@18.3.1)
       color2k: 2.0.3
     transitivePeerDependencies:
       - react
     dev: false
 
-  /@chakra-ui/theme-tools@2.2.5(@chakra-ui/styled-system@2.12.0)(react@18.3.1):
-    resolution: {integrity: sha512-tUIv04Pzm2W8v5Iugei15qREIFX2mslI3fEouIVih8vHzwY821neCfspxOsAhvYSLNX+1kzk6ArBo9WzUpqn+Q==}
+  /@chakra-ui/theme-tools@2.2.9(@chakra-ui/styled-system@2.12.0)(react@18.3.1):
+    resolution: {integrity: sha512-PcbYL19lrVvEc7Oydy//jsy/MO/rZz1DvLyO6AoI+bI/+Kwz9WfOKsspbulEhRg5COayE0R/IZPsskXZ7Mp4bA==}
     peerDependencies:
       '@chakra-ui/styled-system': '>=2.0.0'
     dependencies:
-      '@chakra-ui/anatomy': 2.3.4
+      '@chakra-ui/anatomy': 2.3.6
       '@chakra-ui/styled-system': 2.12.0(react@18.3.1)
-      '@chakra-ui/utils': 2.2.1(react@18.3.1)
+      '@chakra-ui/utils': 2.2.5(react@18.3.1)
       color2k: 2.0.3
     transitivePeerDependencies:
       - react
@@ -1743,6 +1747,16 @@ packages:
 
   /@chakra-ui/utils@2.2.2(react@18.3.1):
     resolution: {integrity: sha512-jUPLT0JzRMWxpdzH6c+t0YMJYrvc5CLericgITV3zDSXblkfx3DsYXqU11DJTSGZI9dUKzM1Wd0Wswn4eJwvFQ==}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      '@types/lodash.mergewith': 4.6.9
+      lodash.mergewith: 4.6.2
+      react: 18.3.1
+    dev: false
+
+  /@chakra-ui/utils@2.2.5(react@18.3.1):
+    resolution: {integrity: sha512-KTBCK+M5KtXH6p54XS39ImQUMVtAx65BoZDoEms3LuObyTo1+civ1sMm4h3nRT320U6H5H7D35WnABVQjqU/4g==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
@@ -2793,7 +2807,7 @@ packages:
       '@chakra-ui/react': 3.30.0(@emotion/react@11.14.0)(react-dom@18.3.1)(react@18.3.1)
       '@chakra-ui/react-utils': 2.0.12(react@18.3.1)
       '@chakra-ui/styled-system': 2.11.1(react@18.3.1)
-      '@chakra-ui/theme-tools': 2.2.5(@chakra-ui/styled-system@2.11.1)(react@18.3.1)
+      '@chakra-ui/theme-tools': 2.2.9(@chakra-ui/styled-system@2.11.1)(react@18.3.1)
       '@chakra-ui/utils': 2.2.1(react@18.3.1)
       '@emotion/react': 11.14.0(@types/react@18.3.11)(react@18.3.1)
       '@emotion/styled': 11.14.1(@emotion/react@11.14.0)(@types/react@18.3.11)(react@18.3.1)
@@ -2977,7 +2991,7 @@ packages:
       '@chakra-ui/anatomy': 2.3.4
       '@chakra-ui/react': 3.30.0(@emotion/react@11.14.0)(react-dom@18.3.1)(react@18.3.1)
       '@chakra-ui/styled-system': 2.11.1(react@18.3.1)
-      '@chakra-ui/theme-tools': 2.2.5(@chakra-ui/styled-system@2.11.1)(react@18.3.1)
+      '@chakra-ui/theme-tools': 2.2.9(@chakra-ui/styled-system@2.11.1)(react@18.3.1)
       react: 18.3.1
     dev: false
 

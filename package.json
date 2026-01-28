@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chakra-ui/theme-tools": "^2.2.5",
+    "@chakra-ui/theme-tools": "^2.2.9",
     "@fontsource-variable/inter": "^5.2.8",
     "@saas-ui/auth": "^3.4.0",
     "@saas-ui/react": "^2.9.0",
